@@ -11,4 +11,10 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.sass('resources/scss/vitality.scss', 'public/css/mozi.css');
+mix.sass('resources/scss/vitality.scss', 'public/css/mozi_style.css')
+    .sass('resources/scss/custom.scss', 'public/css');
+
+mix.styles([
+    'public/css/mozi_style.css',
+    'public/css/custom.css'
+], 'public/css/mozi.css');

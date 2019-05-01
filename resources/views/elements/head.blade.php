@@ -4,7 +4,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Vitality - Multipurpose Bootstrap 4 One Page Theme</title>
+    <title>Mozi</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -20,7 +20,6 @@
     <link href="vendor/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
     <link href="vendor/animate.css/animate.min.css" rel="stylesheet" type="text/css">
-    <link href="device-mockups/device-mockups.min.css" rel="stylesheet" type="text/css">
 
     <link href="{{ url('css/mozi.css') }}" rel="stylesheet" type="text/css">
 
