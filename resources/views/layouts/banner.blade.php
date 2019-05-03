@@ -1,5 +1,5 @@
 <!-- Masthead -->
-<header class="masthead" style="background-image: url('{{ asset('images/backgrounds/banner01.jpg') }}');background-size: auto;background-repeat: no-repeat;background-position: center center;">
+<header class="masthead" style="background-image: url('{{ asset('images/backgrounds/banner01.jpg') }}');background-repeat: no-repeat;background-position: center center;">
     <div class="container h-100">
         <div class="row h-100">
             <div class="col-12 my-auto text-center text-white">
