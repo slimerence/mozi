@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="footer" style="background-image: url({{ asset('images/backgrounds/banner01.jpg') }})">
+<footer class="footer" style="background-image: url({{ asset('images/backgrounds/banner02.jpg') }});background-repeat: no-repeat;background-position: center center;">
     <div class="container text-center">
         <div class="row">
             <div class="col-md-4 footer-contact-details">
@@ -12,15 +12,15 @@
                 <h4>
                     <i class="fa fa-map-marker"></i>
                     Visit</h4>
-                <p>3481 Melrose Place
-                    <br>Beverly Hills, CA 90210</p>
+                <p>377 Chapman Ave.
+                    <br>Suite 235 Placentia CA 92870</p>
             </div>
             <div class="col-md-4 footer-contact-details">
                 <h4>
                     <i class="fa fa-envelope"></i>
                     Email</h4>
                 <p>
-                    <a href="mailto:mail@example.com">mail@example.com</a>
+                    <a href="mailto:sales@atoptechnology.com">sales@atoptechnology.com</a>
                 </p>
             </div>
         </div>
