@@ -1059,6 +1059,10 @@ a.text-primary:hover {
   color: #1478bf;
 }
 
+.row {
+  margin: 0;
+}
+
 .dark-bg {
   background: #342c2a;
 }
@@ -1181,6 +1185,17 @@ section#qa {
 
   .qa-container .qa p {
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .qa-container .qa {
+    padding: 20px;
+  }
+
+  .qa-container img {
+    padding: 10px 20px 10px 10px;
+    width: 125px;
   }
 }
 

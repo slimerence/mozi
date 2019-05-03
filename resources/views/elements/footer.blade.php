@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="row footer-social">
-            <div class="col-lg-12">
+            <div class="col-12">
                 <ul class="list-inline">
                     <li class="list-inline-item">
                         <a href="#">
