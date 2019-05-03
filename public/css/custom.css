@@ -1,5 +1,5 @@
 .blue_title {
-  color: #0a3fff;
+  color: #1478bf;
 }
 
 .dark-bg {
@@ -18,9 +18,9 @@
   margin-bottom: 1.2em;
   display: inline-block;
   padding: 1em 0.5em;
-  border: 2px solid #fff;
   margin-left: auto;
   margin-right: auto;
+  background-size: 100% 100%;
 }
 
 .product-list {
@@ -40,8 +40,28 @@
     border-right: 2px solid #fff;
   }
 
+  .product-list-row .list-one li::after {
+    margin-left: 0.5em;
+    content: "";
+    background-image: url("/images/dot.png");
+    background-size: 100% 100%;
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+  }
+
   .product-list-row .list-two {
     border-left: 2px solid #fff;
+  }
+
+  .product-list-row .list-two li::before {
+    margin-right: 0.5em;
+    content: "";
+    background-image: url("/images/dot.png");
+    background-size: 100% 100%;
+    height: 1em;
+    width: 1em;
+    display: inline-block;
   }
 }
 
@@ -68,7 +88,7 @@ section#qa {
 }
 
 #qa .bottom-bg img {
-  width: 70%;
+  float: right;
 }
 
 .qa-container .qa-flex {
@@ -79,15 +99,15 @@ section#qa {
 
 .qa-container img {
   display: inline-block;
-  padding: 20px;
-  border-right: 2px solid #0a3fff;
-  width: 135px;
+  padding: 20px 40px 20px 20px;
+  border-right: 3px solid #1478bf;
+  width: 165px;
 }
 
 .qa-container .qa {
   display: inline-block;
   text-align: left;
-  padding: 20px;
+  padding: 50px;
   max-width: 600px;
 }
 
@@ -96,9 +116,79 @@ section#qa {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 768px) {
+  .qa-container .qa h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .qa-container .qa p {
+    font-size: 14px;
+  }
+}
+
 @media only screen and (min-width: 992px) {
   .call-to-action {
     padding: 150px 0;
   }
+}
+
+#ca {
+  position: relative;
+}
+
+#ca h2 {
+  margin-bottom: 20px;
+}
+
+#ca .right-bg img {
+  position: absolute;
+  right: 0;
+}
+
+#ca .left-bg img {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+
+#ca .right-b-bg img {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  max-width: 20vh;
+}
+
+#contact {
+  position: relative;
+}
+
+#contact .right-b-bg img {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  max-width: 20vh;
+}
+
+#free {
+  position: relative;
+}
+
+#free .right-bg {
+  position: relative;
+}
+
+#free .right-bg img {
+  position: absolute;
+  right: 0;
+  max-width: 50vh;
+}
+
+.ptb {
+  padding: 100px 0;
+}
+
+.mt-50 {
+  margin-top: 50px;
 }
 

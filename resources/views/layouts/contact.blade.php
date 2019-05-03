@@ -2,7 +2,7 @@
 <section class="page-section" id="contact">
     <div class="container wow fadeIn">
         <div class="text-center">
-            <h2>Contact Us</h2>
+            <h2>Contact <span class="blue_title">Us</span></h2>
             <hr class="colored">
             <p>Please tell us about your next project and we will let you know what we can do to help you.</p>
         </div>
@@ -48,5 +48,8 @@
                 </form>
             </div>
         </div>
+    </div>
+    <div class="right-b-bg">
+        <img src="{{ asset('images/backgrounds/bg_contact01.png') }}" alt="ink-bg1">
     </div>
 </section>
