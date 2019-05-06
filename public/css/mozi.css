@@ -11,7 +11,7 @@ hr {
 }
 
 hr.colored {
-  border-color: #0a3fff;
+  border-color: #1478bf;
 }
 
 @media (min-width: 992px) {
@@ -56,13 +56,13 @@ body {
 }
 
 a {
-  color: #0a3fff;
+  color: #1478bf;
   transition: all 0.5s;
 }
 
 a:hover,
 a:focus {
-  color: #0029bd;
+  color: #0d4c7a;
   text-decoration: none;
 }
 
@@ -142,7 +142,7 @@ h6 {
 #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active,
 #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:focus,
 #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:hover {
-  color: #0a3fff;
+  color: #1478bf;
 }
 
 @media (min-width: 992px) {
@@ -182,7 +182,7 @@ h6 {
   #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active,
   #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:focus,
   #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:hover {
-    color: #0a3fff;
+    color: #1478bf;
     border-radius: 0;
     border-radius: 5px;
     background-color: white;
@@ -650,7 +650,7 @@ header.video .scroll-down {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #0a3fff;
+  background: #1478bf;
 }
 
 .portfolio-grid .mix .portfolio-wrapper .caption .caption-text {
@@ -815,14 +815,14 @@ header.video .scroll-down {
 .signup-form .input-group .input-group-btn .btn-primary {
   border: 0;
   border-radius: 0;
-  background-color: #0a3fff;
+  background-color: #1478bf;
   font-size: 1rem;
 }
 
 .signup-form .input-group .input-group-btn .btn-primary:hover,
 .signup-form .input-group .input-group-btn .btn-primary:focus {
   color: white;
-  background-color: #002ed6;
+  background-color: #0f5b91;
 }
 
 .floating-label-form-group {
@@ -871,7 +871,7 @@ header.video .scroll-down {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #0a3fff;
+  color: #1478bf;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -937,14 +937,14 @@ footer.footer .copyright {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  color: #0a3fff !important;
+  color: #1478bf !important;
   border-color: white !important;
   background-color: white !important;
 }
 
 .btn-primary:active,
 .btn-primary:focus {
-  box-shadow: 0 0 0 3px rgba(10, 63, 255, 0.5) !important;
+  box-shadow: 0 0 0 3px rgba(20, 120, 191, 0.5) !important;
 }
 
 .btn-secondary {
@@ -957,13 +957,13 @@ footer.footer .copyright {
 .btn-secondary:focus,
 .btn-secondary:hover {
   color: white !important;
-  border-color: #0a3fff !important;
-  background-color: #0a3fff !important;
+  border-color: #1478bf !important;
+  background-color: #1478bf !important;
 }
 
 .btn-secondary:active,
 .btn-secondary:focus {
-  box-shadow: 0 0 0 3px rgba(10, 63, 255, 0.5) !important;
+  box-shadow: 0 0 0 3px rgba(20, 120, 191, 0.5) !important;
 }
 
 button:hover {
@@ -984,7 +984,7 @@ button:hover {
 
 .btn-full-width:hover {
   color: white;
-  background-color: #0a3fff;
+  background-color: #1478bf;
 }
 
 .btn-full-width:focus {
@@ -992,16 +992,16 @@ button:hover {
 }
 
 .text-primary {
-  color: #0a3fff !important;
+  color: #1478bf !important;
 }
 
 a.text-primary {
-  color: #0a3fff !important;
+  color: #1478bf !important;
 }
 
 a.text-primary:focus,
 a.text-primary:hover {
-  color: #0029bd !important;
+  color: #0d4c7a !important;
 }
 
 .bg-inverse {
@@ -1025,7 +1025,7 @@ a.text-primary:hover {
   text-align: center;
   color: white !important;
   border-radius: 0 !important;
-  background-color: #0a3fff !important;
+  background-color: #1478bf !important;
   transition: all 0.5s;
 }
 
@@ -1056,7 +1056,11 @@ a.text-primary:hover {
 
 
 .blue_title {
-  color: #0a3fff;
+  color: #1478bf;
+}
+
+.row {
+  margin: 0;
 }
 
 .dark-bg {
@@ -1075,9 +1079,9 @@ a.text-primary:hover {
   margin-bottom: 1.2em;
   display: inline-block;
   padding: 1em 0.5em;
-  border: 2px solid #fff;
   margin-left: auto;
   margin-right: auto;
+  background-size: 100% 100%;
 }
 
 .product-list {
@@ -1097,8 +1101,28 @@ a.text-primary:hover {
     border-right: 2px solid #fff;
   }
 
+  .product-list-row .list-one li::after {
+    margin-left: 0.5em;
+    content: "";
+    background-image: url("/images/dot.png");
+    background-size: 100% 100%;
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+  }
+
   .product-list-row .list-two {
     border-left: 2px solid #fff;
+  }
+
+  .product-list-row .list-two li::before {
+    margin-right: 0.5em;
+    content: "";
+    background-image: url("/images/dot.png");
+    background-size: 100% 100%;
+    height: 1em;
+    width: 1em;
+    display: inline-block;
   }
 }
 
@@ -1125,7 +1149,7 @@ section#qa {
 }
 
 #qa .bottom-bg img {
-  width: 70%;
+  float: right;
 }
 
 .qa-container .qa-flex {
@@ -1136,15 +1160,15 @@ section#qa {
 
 .qa-container img {
   display: inline-block;
-  padding: 20px;
-  border-right: 2px solid #0a3fff;
-  width: 135px;
+  padding: 20px 40px 20px 20px;
+  border-right: 3px solid #1478bf;
+  width: 165px;
 }
 
 .qa-container .qa {
   display: inline-block;
   text-align: left;
-  padding: 20px;
+  padding: 50px;
   max-width: 600px;
 }
 
@@ -1153,9 +1177,90 @@ section#qa {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 768px) {
+  .qa-container .qa h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .qa-container .qa p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .qa-container .qa {
+    padding: 20px;
+  }
+
+  .qa-container img {
+    padding: 10px 20px 10px 10px;
+    width: 125px;
+  }
+}
+
 @media only screen and (min-width: 992px) {
   .call-to-action {
     padding: 150px 0;
   }
+}
+
+#ca {
+  position: relative;
+}
+
+#ca h2 {
+  margin-bottom: 20px;
+}
+
+#ca .right-bg img {
+  position: absolute;
+  right: 0;
+}
+
+#ca .left-bg img {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+
+#ca .right-b-bg img {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  max-width: 20vh;
+}
+
+#contact {
+  position: relative;
+}
+
+#contact .right-b-bg img {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  max-width: 20vh;
+}
+
+#free {
+  position: relative;
+}
+
+#free .right-bg {
+  position: relative;
+}
+
+#free .right-bg img {
+  position: absolute;
+  right: 0;
+  max-width: 50vh;
+}
+
+.ptb {
+  padding: 100px 0;
+}
+
+.mt-50 {
+  margin-top: 50px;
 }
 
