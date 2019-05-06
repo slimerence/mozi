@@ -15,7 +15,7 @@
                 <p class="mb-0 mx-auto mt-50" style="max-width: 600px;">Quality makes us different,
                     our in house chipset level production line work through a strickt and smooth progress to esure every product reach
                     a high level performance. Our below tests with every product 100% of the time.</p>
-                <a class="btn btn-primary js-scroll-trigger mt-50" href="#services">How We Work</a>
+                <a class="btn btn-primary js-scroll-trigger mt-50" href="#contact">How We Work</a>
             </div>
         </div>
     </div>

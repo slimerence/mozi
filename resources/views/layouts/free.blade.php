@@ -7,10 +7,10 @@
             <div class="col-md-10 mx-auto">
                 <h2>Free <span class="blue_title">Trail</span></h2>
                 <hr class="colored">
-                <p class="mb-0">Quality makes us different,
-                    our in house chipset level production line work through a strickt and smooth progress to esure every product reach
-                    a high level performance. Our below tests with every product 100% of the time.</p>
+                <p class="mb-0">We offer 30 days free trail for every new customer, and also for every new products ready to qualify. Call or drop by today for the latest information.</p>
+{{--
                 <a class="btn btn-primary js-scroll-trigger" href="#services">Book A Free Trail Now</a>
+--}}
             </div>
         </div>
     </div>
