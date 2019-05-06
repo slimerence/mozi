@@ -1,50 +1,26 @@
 <!-- Footer -->
 <footer class="footer" style="background-image: url({{ asset('images/backgrounds/banner02.jpg') }});background-repeat: no-repeat;background-position: center center;">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-md-4 footer-contact-details">
-                <h4>
-                    <i class="fa fa-phone"></i>
-                    Call</h4>
-                <p>555-213-4567</p>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-3 my-footer text-center">
+                <img class="w-100" src="{{ asset('images/logo_large.png') }}" alt="logo">
+                <h4>MOZI HARDWARE</h4>
+                <a href="mailto:sales@atoptechnology.com">sales@atoptechnology.com</a>
             </div>
-            <div class="col-md-4 footer-contact-details">
-                <h4>
-                    <i class="fa fa-map-marker"></i>
-                    Visit</h4>
+            <div class="col-md-4 offset-md-1 my-footer">
+                <p>North America</p>
                 <p>377 Chapman Ave.
                     <br>Suite 235 Placentia CA 92870</p>
+                <p>555-213-4567</p>
             </div>
-            <div class="col-md-4 footer-contact-details">
-                <h4>
-                    <i class="fa fa-envelope"></i>
-                    Email</h4>
-                <p>
-                    <a href="mailto:sales@atoptechnology.com">sales@atoptechnology.com</a>
-                </p>
-            </div>
-        </div>
-        <div class="row footer-social">
-            <div class="col-12">
-                <ul class="list-inline">
-                    <li class="list-inline-item">
-                        <a href="#">
-                            <i class="fa fa-facebook fa-fw fa-2x"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                            <i class="fa fa-twitter fa-fw fa-2x"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                            <i class="fa fa-linkedin fa-fw fa-2x"></i>
-                        </a>
-                    </li>
-                </ul>
+            <div class="col-md-4 my-footer">
+                <p>North America</p>
+                <p>377 Chapman Ave.
+                    <br>Suite 235 Placentia CA 92870</p>
+                <p>555-213-4567</p>
             </div>
         </div>
-        <p class="copyright">&copy; 2019 Mozi</p>
+
+        <p class="copyright text-center">&copy; 2019 MOZI HARDWARE</p>
     </div>
 </footer>

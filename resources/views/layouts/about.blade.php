@@ -5,8 +5,14 @@
             <h2>About <span class="blue_title">US</span></h2>
             <p class="mb-0">MOZI Hardware is a factory affiliated distribution company based in North America and Oceania. Our mission is to help our customer can turn up their services faster and build out competitive fiber networks they need. We provid trusted and tested optical transceiver and component products to our customers.</p>
         </div>
+{{--
         <h3 class="mozi-border-title" style="background-image:url({{ asset('images/button01.png') }}) ;">Our Products include</h3>
+--}}
+
         <div class="row product-list-row">
+            <div class="col-12 my-3 text-center">
+                <img src="{{ asset('images/backgrounds/pbg.png') }}" style="width: 100%;max-width: 700px;" alt="pbg">
+            </div>
             <div class="col-12 col-md-6 list-one">
                 <ul class="product-list">
                     <li>400G QSFP-DD SR8/FR8</li>

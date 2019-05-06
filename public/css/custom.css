@@ -1,5 +1,5 @@
 .blue_title {
-  color: #1478bf;
+  color: #e62129;
 }
 
 .row {
@@ -15,6 +15,11 @@
 .dark-bg p,
 .dark-bg i {
   color: #fff;
+}
+
+.my-footer {
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 .mozi-border-title {
@@ -104,7 +109,7 @@ section#qa {
 .qa-container img {
   display: inline-block;
   padding: 20px 40px 20px 20px;
-  border-right: 3px solid #1478bf;
+  border-right: 3px solid #e62129;
   width: 165px;
 }
 
@@ -145,6 +150,10 @@ section#qa {
 @media only screen and (min-width: 992px) {
   .call-to-action {
     padding: 150px 0;
+  }
+
+  header.masthead {
+    background-size: 100% 100%;
   }
 }
 

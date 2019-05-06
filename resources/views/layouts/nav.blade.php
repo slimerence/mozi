@@ -25,6 +25,17 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link d-inline-block" style="padding: 15px 0.3em;" href="#">
+                        <i class="fa fa-linkedin fa-fw"></i>
+                    </a>
+                    <a class="nav-link d-inline-block" style="padding: 15px 0.3em;" href="#">
+                        <i class="fa fa-facebook fa-fw"></i>
+                    </a>
+                    <a class="nav-link d-inline-block" style="padding: 15px 0.3em;" href="#">
+                        <i class="fa fa-twitter fa-fw"></i>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
