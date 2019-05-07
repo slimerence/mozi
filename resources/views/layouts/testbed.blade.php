@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-10 mx-auto">
                 <h2>Compatibility</h2>
-                <p class="mb-0 mt-50" style="font-size: 28px;">Code makes the difference</p>
+                <p class="mb-0" style="font-size: 24px;">Code makes the difference</p>
                 <hr class="colored mt-50">
                 <p class="mb-0 mx-auto mt-50" style="max-width: 600px;">We generate our products with a pefect EEPROM to work with most OEM vendors. We tested our products based on different system and equipment, therefore, we understand how to supply the best 3rd party compatible modules.</p>
                 <a class="btn btn-primary js-scroll-trigger mt-50" href="#contact">How We Work</a>
