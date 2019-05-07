@@ -17,7 +17,7 @@
                     <a class="nav-link js-scroll-trigger" href="#qa">Quality Assurance</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#ca">Test Bed</a>
+                    <a class="nav-link js-scroll-trigger" href="#ca">Compatibility</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#free">Free Trail</a>
