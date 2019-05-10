@@ -1,5 +1,6 @@
 <head>
     <meta charset="utf-8">
+    <meta name="google-site-verification" content="WyzoQU5UaD4q0McLhLiV7Z_GcqJoJ58JKx8SJw6ELQk" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
